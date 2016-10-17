@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Car nurplaca:</strong>
+  <%= @carro.Car_Nurplaca %>
+</p>
+
+<p>
+  <strong>Car endereco:</strong>
+  <%= @carro.Car_Endereco %>
+</p>
+
+<p>
+  <strong>Cad cpf:</strong>
+  <%= @carro.Cad_Cpf %>
+</p>
+
+<p>
+  <strong>Car dtentrada:</strong>
+  <%= @carro.Car_Dtentrada %>
+</p>
+
+<p>
+  <strong>Car hrentrada:</strong>
+  <%= @carro.Car_Hrentrada %>
+</p>
+
+<%= link_to 'Edit', edit_carro_path(@carro) %> |
+<%= link_to 'Back', carros_path %>

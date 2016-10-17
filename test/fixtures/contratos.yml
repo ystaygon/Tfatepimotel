@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Con_Id: 1
+  Con_Dtvenda: 2016-10-15
+  Con_Vendatotal: 9.99
+  Con_Desconto: 9.99
+
+two:
+  Con_Id: 1
+  Con_Dtvenda: 2016-10-15
+  Con_Vendatotal: 9.99
+  Con_Desconto: 9.99

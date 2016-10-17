@@ -1,0 +1,2 @@
+json.extract! atendente, :id, :Ate_Nome, :Ate_Dtadmissao, :Ate_Nrrg, :Ate_Nrcpf, :Ate_Dtnascimento, :Ate_Vlsalario, :Ate_Dtpagamento, :created_at, :updated_at
+json.url atendente_url(atendente, format: :json)

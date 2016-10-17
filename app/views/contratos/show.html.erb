@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Con id:</strong>
+  <%= @contrato.Con_Id %>
+</p>
+
+<p>
+  <strong>Con dtvenda:</strong>
+  <%= @contrato.Con_Dtvenda %>
+</p>
+
+<p>
+  <strong>Con vendatotal:</strong>
+  <%= @contrato.Con_Vendatotal %>
+</p>
+
+<p>
+  <strong>Con desconto:</strong>
+  <%= @contrato.Con_Desconto %>
+</p>
+
+<%= link_to 'Edit', edit_contrato_path(@contrato) %> |
+<%= link_to 'Back', contratos_path %>

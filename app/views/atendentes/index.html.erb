@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Atendentes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ate nome</th>
+      <th>Ate dtadmissao</th>
+      <th>Ate nrrg</th>
+      <th>Ate nrcpf</th>
+      <th>Ate dtnascimento</th>
+      <th>Ate vlsalario</th>
+      <th>Ate dtpagamento</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @atendentes.each do |atendente| %>
+      <tr>
+        <td><%= atendente.Ate_Nome %></td>
+        <td><%= atendente.Ate_Dtadmissao %></td>
+        <td><%= atendente.Ate_Nrrg %></td>
+        <td><%= atendente.Ate_Nrcpf %></td>
+        <td><%= atendente.Ate_Dtnascimento %></td>
+        <td><%= atendente.Ate_Vlsalario %></td>
+        <td><%= atendente.Ate_Dtpagamento %></td>
+        <td><%= link_to 'Show', atendente %></td>
+        <td><%= link_to 'Edit', edit_atendente_path(atendente) %></td>
+        <td><%= link_to 'Destroy', atendente, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Atendente', new_atendente_path %>

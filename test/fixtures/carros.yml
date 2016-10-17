@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Car_Nurplaca: MyString
+  Car_Endereco: MyString
+  Cad_Cpf: MyString
+  Car_Dtentrada: 2016-10-15
+  Car_Hrentrada: 2016-10-15 11:47:32
+
+two:
+  Car_Nurplaca: MyString
+  Car_Endereco: MyString
+  Cad_Cpf: MyString
+  Car_Dtentrada: 2016-10-15
+  Car_Hrentrada: 2016-10-15 11:47:32

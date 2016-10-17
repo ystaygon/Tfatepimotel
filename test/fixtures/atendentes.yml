@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Ate_Nome: MyString
+  Ate_Dtadmissao: 2016-10-15
+  Ate_Nrrg: MyString
+  Ate_Nrcpf: MyString
+  Ate_Dtnascimento: 2016-10-15
+  Ate_Vlsalario: 9.99
+  Ate_Dtpagamento: 2016-10-15
+
+two:
+  Ate_Nome: MyString
+  Ate_Dtadmissao: 2016-10-15
+  Ate_Nrrg: MyString
+  Ate_Nrcpf: MyString
+  Ate_Dtnascimento: 2016-10-15
+  Ate_Vlsalario: 9.99
+  Ate_Dtpagamento: 2016-10-15

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Pro_Id: MyString
+  Pro_Noproduto: MyString
+  Pro_Nrquantidade: MyString
+  Pro_Vlcompra: MyString
+  Pro_Vlvenda: MyString
+
+two:
+  Pro_Id: MyString
+  Pro_Noproduto: MyString
+  Pro_Nrquantidade: MyString
+  Pro_Vlcompra: MyString
+  Pro_Vlvenda: MyString

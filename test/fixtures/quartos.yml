@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Qua_Nome: MyString
+  Qua_Tipo: MyString
+  Qua_Nometipo: MyString
+  Qua_Vlpreco: 9.99
+
+two:
+  Qua_Nome: MyString
+  Qua_Tipo: MyString
+  Qua_Nometipo: MyString
+  Qua_Vlpreco: 9.99

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Quartos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Qua nome</th>
+      <th>Qua tipo</th>
+      <th>Qua nometipo</th>
+      <th>Qua vlpreco</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @quartos.each do |quarto| %>
+      <tr>
+        <td><%= quarto.Qua_Nome %></td>
+        <td><%= quarto.Qua_Tipo %></td>
+        <td><%= quarto.Qua_Nometipo %></td>
+        <td><%= quarto.Qua_Vlpreco %></td>
+        <td><%= link_to 'Show', quarto %></td>
+        <td><%= link_to 'Edit', edit_quarto_path(quarto) %></td>
+        <td><%= link_to 'Destroy', quarto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Quarto', new_quarto_path %>
